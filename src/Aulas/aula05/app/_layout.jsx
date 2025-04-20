@@ -10,7 +10,7 @@ export default function RootLayout() {
 
   return (
       <Stack screenOptions={{headerShown: false}}>
-        <Stack.Screen name="pages/" />
+        <Stack.Screen name="cep" />
         <Stack.Screen name="index" />
       </Stack>
   );
