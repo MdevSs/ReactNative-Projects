@@ -10,6 +10,7 @@ export default function RootLayout() {
 
   return (
       <Stack screenOptions={{headerShown: false}}>
+        <Stack.Screen name="api" />
         <Stack.Screen name="cep" />
         <Stack.Screen name="index" />
       </Stack>
